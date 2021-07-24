@@ -8,6 +8,14 @@ const getUsers = () => {
     .catch((error) => ({ error }));
 };
 
+// export const getUser = async () => {
+//   try {
+//     const data = await axios.get("https://reqres.in/api/users");
+//     const modifiedData = data.map(() => ({}));
+//     return modifiedData;
+//   } catch (e) { }
+// };
+
 function* getUsersSaga() {
   const { response, error } = yield call(getUsers);
   if (response) {
