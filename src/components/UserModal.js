@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import 'antd/dist/antd.css';
 import { connect } from 'react-redux'
 import { Modal, Button as AntdButton } from 'antd';
+import * as userActions from '../actions/userActions'
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
