@@ -15,7 +15,7 @@ const Main = (props) => {
   return (
     <div className='main'>
       <div>
-        <h1>User Details</h1>
+        <h1>User Detailss</h1>
         <div className='addUser'>
           <Button type="primary" onClick={goToFavorite}>
             Go to favorites list
