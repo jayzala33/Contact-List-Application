@@ -8,8 +8,7 @@
   "engines": {
     "node": "12.11.1"
   },
-  "dependencies": {
-    "@capacitor/core": "^3.3.1",
+  "devDependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.11.4",
@@ -68,5 +67,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "dependencies": {
+    "@capacitor/core": "^3.3.1"
   }
 }
